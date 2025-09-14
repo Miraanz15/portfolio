@@ -4,8 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+            align-items: center;
+        }
+        td {
+            align-items: center;
+            text-align: center;
+        }
+        table{
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
+    </style>
 </head>
 <body>
+    <header>  
+    <div style="display: flex; justify-content: space-between; align-items: center;"> 
     <h1>Education</h1>
+    <nav>
+        <a href="./index.html"  style="text-decoration: none; color: black; margin: 10px;"><span>Home</span></a>
+        <a href="./experience.html"  style="text-decoration: none; color: black; margin: 10px;"><span>Experience</span></a>
+        <a href="./projects.html"    style="text-decoration: none; color: black; margin: 10px;"><span>Projects</span></a>
+        <a href="./projects.html" style="text-decoration: none; color: black; margin: 10px;"><span>Contact</span></a>
+    </nav>
+    </div>   
+    </header>
+    <hr/>
+    <main>
+        <section>
+            <div>
+                <h2>Degrees</h2>
+                <ul>
+                    <li>Matriculation, 2011</li>
+                    <li>Higher Secondary, 2013</li>
+                    <li>B.Tech, IT,  2018</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2 style="margin-left: 50%; ">Grades</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Degree</th>
+                            <th>Percentage</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Matriculation</td>
+                            <td>85.4</td>
+                            <td>First</td>
+                        </tr>
+                        <tr>
+                            <td>Higher Secondary</td>
+                            <td>82</td>
+                            <td>First</td>
+                        </tr>
+                        <tr>
+                            <td>B.Tech(IT)</td>
+                            <td>79.2</td>
+                            <td>First</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <hr/>
+    <footer>
+        <h3>Quick Links</h3>
+        <button style="border: 1px solid black; border-radius: 5px; opacity: 0.9; cursor: pointer; outline: none;">GitHub</button>
+        <button style="border: 1px solid black; border-radius: 5px; opacity: 0.9; cursor: pointer; outline: none;">LinkedIn</button>
+    </footer>
 </body>
 </html>
